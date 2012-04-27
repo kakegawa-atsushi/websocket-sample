@@ -1,3 +1,4 @@
+package jp.classmethod.websocketsample;
 import javax.servlet.http.HttpServletRequest;
 
 import org.eclipse.jetty.websocket.WebSocket;

@@ -1,3 +1,4 @@
+package jp.classmethod.websocketsample;
 /**
  * 各クライアントで発生したイベントのデータを格納するクラスです。
  */

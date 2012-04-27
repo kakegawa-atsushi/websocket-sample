@@ -1,3 +1,4 @@
+package jp.classmethod.websocketsample;
 import java.io.IOException;
 
 import net.arnx.jsonic.JSON;

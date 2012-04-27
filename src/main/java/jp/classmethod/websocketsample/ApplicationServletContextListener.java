@@ -1,3 +1,4 @@
+package jp.classmethod.websocketsample;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
