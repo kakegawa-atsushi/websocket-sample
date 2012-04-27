@@ -1,0 +1,41 @@
+#keyboard-container {
+    width: 849px;
+}
+#white-key-container {
+    position: absolute;
+    display: -webkit-box;
+}
+#black-key-container {
+    position: absolute;
+    display: -webkit-box;
+    margin-left: 56px;
+}
+.white-key {
+    background-color: #f5f5f5;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+    width: 82px;
+    height: 400px;
+    margin-right: -1px;
+}
+.black-key {
+    background-color: #333333;
+    width: 51px;
+    height: 250px;
+    margin-right: 32px;
+}
+.dummy-key {
+    width: 51px;
+    height: 1px;
+    margin-right: 32px;
+}
+.pressed {
+    background-color: #ffaaaa;
+}
+.pressed-by-other {
+    background-color: #aaaaff;
+}
+.pressed.pressed-by-other {
+    background-color: #aaffaa;
+}

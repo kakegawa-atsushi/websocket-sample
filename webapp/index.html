@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="./synth.js" type="text/javascript"></script>
+    <script src="./main.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="keyboard-container">
+        <div id="white-key-container">
+            <div id="C4key" class="white-key"></div>
+            <div id="D4key" class="white-key"></div>
+            <div id="E4key" class="white-key"></div>
+            <div id="F4key" class="white-key"></div>
+            <div id="G4key" class="white-key"></div>
+            <div id="A4key" class="white-key"></div>
+            <div id="B4key" class="white-key"></div>
+            <div id="C5key" class="white-key"></div>
+        </div>
+        <div id="black-key-container">
+            <div id="Cs4key" class="black-key"></div>
+            <div id="Ds4key" class="black-key"></div>
+            <div class="dummy-key"></div>
+            <div id="Fs4key" class="black-key"></div>
+            <div id="Gs4key" class="black-key"></div>
+            <div id="As4key" class="black-key"></div>
+        </div>
+    </div>
+    <div style="float:right;">
+        <fieldset>
+            <legend>波形</legend>
+            <p><label><input type="radio" name="oscillator" value="0" checked>SineWave</label></p>
+            <p><label><input type="radio" name="oscillator" value="1">SawWave</label></p>
+            <p><label><input type="radio" name="oscillator" value="2">SquareWave</label></p>
+            <p><label><input type="radio" name="oscillator" value="3">TriangleWave</label></p>
+        </fieldset>
+    </div>
+</body>
+</html>
