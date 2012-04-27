@@ -26,12 +26,12 @@ public class Main {
         Server server = new Server(8080);
 //        Server server = new Server(Integer.valueOf(System.getenv("PORT")));
         
-        // Webコンテナ機能のハンドラを作成
+        // Webコンテナのハンドラを作成
         ResourceHandler resourceHandler = new ResourceHandler();
         // 静的コンテンツの配置ディレクトリを指定
         resourceHandler.setResourceBase("./webapp");
         
-        // サーブレットコンテナ機能のハンドラを作成
+        // サーブレットコンテナのハンドラを作成
         ServletContextHandler contextHandler = new ServletContextHandler(ServletContextHandler.SESSIONS);
         contextHandler.setContextPath("/");
         // WebSocketでクライアントと接続するサーブレットを追加
